@@ -12,3 +12,7 @@ readonly DOCKER_NETWORK="${DOCKER_NETWORK:-${DOCKER_PREFIX}_net}"
 
 # List of all supported architectures for the images.
 readonly SUPPORTED_ARCHITECTURES="amd64 arm64 ppc64el s390x"
+# List of all supported registries.
+readonly SUPPORTED_REGISTRIES="aws docker"
+# List of all supported namespaces.
+readonly SUPPORTED_NAMESPACES="ubuntu lts"
